@@ -9,3 +9,19 @@ jobs:
         steps:
             - name: Print Hello World
               run: echo "Hello World"
+
+            - name: "Check PWD"
+              run: pwd
+            
+            - name: "Check WHOAMI"
+              run: whoami
+
+            - name: "cat /etc/os-release"
+              run: cat /etc/os-release
+
+            - name: "mkdir abc"
+              run: ls -ld abc
+
+            - name: "ls -al /"
+              run: ls -al
+
